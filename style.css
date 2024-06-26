@@ -1,0 +1,231 @@
+html{
+    scroll-behavior: smooth;
+  }
+  body {
+      background-color: rgb(40, 40, 50);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+  }
+ 
+  nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(18, 18, 62);
+  }
+  nav ul{
+      display: flex;
+      justify-content: center;
+  }
+  nav ul li{
+      list-style: none;
+      margin: 0 23px;
+  }
+  nav ul li a{
+      text-decoration: none;
+      color: rgb(180, 130, 130);
+  }
+  nav ul li a:hover{
+      color: blue;
+      font-size: 1.05;
+  }
+  .left{
+    font-size: 1.7rem;
+  }
+ 
+  .firstSection{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 10px 0;
+  }
+ 
+  .firstSection > div{
+      width: 47%;
+  }    
+ 
+  .leftSection{
+    font-size: 1.7rem;
+    margin: 76px 0;
+   
+  }
+ 
+  .rightSection img{
+      width: 100%;
+      margin: 50px 0;
+  }
+  img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .img1{
+    mix-blend-mode: multiply;
+   
+  }
+ 
+  .purple{
+    color: blueviolet;
+   
+  }
+  #element{
+    color: blueviolet;
+  }
+ 
+  .secondSection{
+      display: flex;
+      justify-content: space-around;
+      margin: 80px 0;
+  }
+ 
+  .secondSection img{
+      width: 100%;
+      margin: 50px 0;
+   
+   
+  }
+  .secondSection div{
+      width: 100%;
+      margin: 50px 0;
+  }  
+  .rightSection2{
+    font-size: 1.7rem;
+    margin: 70px 0;
+    width: 60%;
+  }
+ 
+  .leftSection2 img{
+      height: 25%;
+      width: 40%;
+      margin: 15px 170px;
+     
+  }
+ 
+  .thirdSection{
+    max-width: 80vw;
+    margin: auto;
+   
+  }
+  .p{
+    font-size: 2.5rem;
+    margin: 70px 100px;
+    width: 60%;
+  }
+ 
+  *{
+    font-family:Gill Sans, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+   }
+
+body{
+background: #333;
+text-transform: uppercase;
+}
+h1{
+margin: 5px;
+}
+.skill{
+width: 500px;
+margin: 60px auto;
+color: #fff;
+padding: 20;
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skill li{
+margin: 20px 0;
+padding: 10px;
+}
+.bar{
+background: #353b48;
+display: block;
+height: 20px;
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+height: 20px;
+float: left;
+background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+.html{
+width: 90%;
+animation: html 3s;
+}
+.css{
+width: 70%;
+animation: css 3s;
+}
+.javascript{
+width: 45%;
+animation: javascript 3s;
+}
+.nodejs{
+width: 60%;
+animation: nodejs 3s;
+}
+.gci{
+max-width: 30%;
+max-height: 40%;
+}
+.forthSection img{
+      width: 70%;
+      margin: 20px 80px;
+}
+.ac{
+width: 500px;
+margin: 60px auto;
+color: #fff;
+padding: 30;
+box-shadow: 0 14px 28px rgba(30, 300, 0, 0.25), 0 10px 10px rgba(8, 0, 0, 0.22);
+}
+.bl{
+width: 550px;
+margin: 6px auto;
+
+}
+.gaa{
+max-width: 30%;
+max-height: 40%;
+
+}
+
+.emo{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 10px 0;
+}
+.i1{
+font-size: 0.7rem;
+margin: 10px 70px;
+width: 80%;
+align-items: center;
+
+}  
+.i2{
+font-size: 0.7rem;
+margin: 0px 75px;
+width: 90%;
+}
+.i3{
+font-size: 0.7rem;
+margin: 0px 73px;
+width: 90%;
+}
+.f{
+font-size: 0.8rem;
+margin: 65px 350px;
+}
+
+
+
